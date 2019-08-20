@@ -3,7 +3,7 @@ const bot = new Client();
 const superagent = require('superagent');
 
 bot.on('ready', ()=>{
-    bot.user.setActivity("Senpai.", {type: ('LISTENING')})
+    bot.user.setActivity("all of you.", {type: ('LISTENING')})
     console.log('Online.')
     var Channel = bot.channels.get("613462182973407259");
     Channel.fetchMessage("613462452209844273");
